@@ -16,4 +16,6 @@ const app = Vue.createApp({
             return this.itemList.filter((i) => i.includes(this.search));
         },
     },
-}).mount('#app');
+});
+
+app.mount('#app');
